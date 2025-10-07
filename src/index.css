@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* Scrollbar ko dark bana do */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background:#18181b; /* Tailwind bg-gray-900 */
+}
+::-webkit-scrollbar-thumb {
+  background: #374151; /* Tailwind bg-gray-700 */
+  border-radius: 9999px;
+}
